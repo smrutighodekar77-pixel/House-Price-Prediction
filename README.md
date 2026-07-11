@@ -171,9 +171,3 @@ The application allows users to:
 - Display predicted prices in both **USD** and **INR**
 
 ---
-
-
-
-## 📄 License
-
-This project is developed for educational and portfolio purposes.
