@@ -13,7 +13,7 @@ This project demonstrates an end-to-end Machine Learning workflow, including dat
 
 Example:
 
-https://your-app-name.streamlit.app
+https://house-price-prediction-vrp938jxl6ma2mzjjktbkz.streamlit.app/
 
 ---
 
