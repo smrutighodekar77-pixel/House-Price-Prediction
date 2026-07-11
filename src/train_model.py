@@ -8,9 +8,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-from data_preprocessing import load_data, clean_data
-from feature_engineering import create_features
-from preprocessing import create_preprocessor
+
+
+from src.data_preprocessing import load_data, clean_data
+from src.feature_engineering import create_features
+from src.preprocessing import create_preprocessor
 
 
 def main():
@@ -33,7 +35,7 @@ def main():
         random_state=42
     )
 
-    preprocessor = create_preprocessor(X)
+    preprocessor = create_preprocessor(X_train)
 
     pipeline = Pipeline([
         ("preprocessor", preprocessor),
